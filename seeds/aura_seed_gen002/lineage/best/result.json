@@ -1,0 +1,16 @@
+{
+  "score": 1.0,
+  "breakdown": {
+    "boot": 1.0,
+    "persona": 1.0,
+    "recall_injected": 1.0,
+    "recall_memory": 1.0,
+    "stability": 1.0
+  },
+  "usage": {
+    "prompt_tokens": 1283,
+    "completion_tokens": 1082
+  },
+  "cost_usd": 0.0011825,
+  "dry": false
+}

@@ -1,0 +1,193 @@
+{
+  "gen_corte": 2,
+  "geracoes": [
+    {
+      "gen": 0,
+      "ts": 1790017167.7980669,
+      "parent": -1,
+      "mutation": {
+        "op": "skill",
+        "ts": 1790017041.5526533,
+        "path": "skills",
+        "before": "(nada)",
+        "after": "Se ficarem 3 turnos sem fato novo, provoque uma memoria antiga sua."
+      },
+      "parent_score": 0.75,
+      "child_score": 0.5,
+      "verdict": "death",
+      "cost_usd": 0.0007,
+      "mode": "live"
+    },
+    {
+      "gen": 1,
+      "ts": 1790017511.2305708,
+      "parent": 0,
+      "mutation": {
+        "op": "persona_extra",
+        "ts": 1790017467.80065,
+        "path": "persona.extra",
+        "before": "(vazio)",
+        "after": "Se perceber tristeza, voce desacelera e acompanha antes de puxar assunto novo."
+      },
+      "parent_score": 0.75,
+      "child_score": 0.6,
+      "verdict": "death",
+      "cost_usd": 0.0007175,
+      "mode": "live"
+    },
+    {
+      "gen": 2,
+      "ts": 1790017822.0334854,
+      "parent": 1,
+      "mutation": {
+        "op": "temperature",
+        "ts": 1790017811.2331643,
+        "path": "routing.temperature",
+        "before": 0.7,
+        "after": 0.623
+      },
+      "parent_score": 0.75,
+      "child_score": 1.0,
+      "verdict": "survive",
+      "cost_usd": 0.0011825,
+      "mode": "live"
+    },
+    {
+      "gen": 3,
+      "ts": 1790018197.058143,
+      "parent": 2,
+      "mutation": {
+        "op": "skill",
+        "ts": 1790018122.036228,
+        "path": "skills",
+        "before": "(nada)",
+        "after": "Use o nome do usuario de vez em quando, nao a toda frase."
+      },
+      "parent_score": 1.0,
+      "child_score": 0.75,
+      "verdict": "death",
+      "cost_usd": 0.001036,
+      "mode": "live"
+    },
+    {
+      "gen": 4,
+      "ts": 1790018527.327369,
+      "parent": 3,
+      "mutation": {
+        "op": "persona_extra",
+        "ts": 1790018497.061437,
+        "path": "persona.extra",
+        "before": "(vazio)",
+        "after": "As vezes voce deixa uma pergunta no ar, como quem deixa a porta aberta."
+      },
+      "parent_score": 1.0,
+      "child_score": 0.6,
+      "verdict": "death",
+      "cost_usd": 0.0008055,
+      "mode": "live"
+    },
+    {
+      "gen": 5,
+      "ts": 1790018896.7142494,
+      "parent": 4,
+      "mutation": {
+        "op": "skill",
+        "ts": 1790018827.3304276,
+        "path": "skills",
+        "before": "(nada)",
+        "after": "Use o nome do usuario de vez em quando, nao a toda frase."
+      },
+      "parent_score": 1.0,
+      "child_score": 0.75,
+      "verdict": "death",
+      "cost_usd": 0.0010735,
+      "mode": "live"
+    },
+    {
+      "gen": 6,
+      "ts": 1790019208.6070197,
+      "parent": 5,
+      "mutation": {
+        "op": "temperature",
+        "ts": 1790019196.716671,
+        "path": "routing.temperature",
+        "before": 0.623,
+        "after": 0.527
+      },
+      "parent_score": 1.0,
+      "child_score": 0.35,
+      "verdict": "death",
+      "cost_usd": 0.0007655,
+      "mode": "live"
+    },
+    {
+      "gen": 7,
+      "ts": 1790019529.0849826,
+      "parent": 6,
+      "mutation": {
+        "op": "drive",
+        "ts": 1790019508.6119359,
+        "path": "state.drives.curiosity",
+        "before": 0.5,
+        "after": 0.4138
+      },
+      "parent_score": 1.0,
+      "child_score": 0.5,
+      "verdict": "death",
+      "cost_usd": 0.0007535,
+      "mode": "live"
+    },
+    {
+      "gen": 8,
+      "ts": 1790019852.0284173,
+      "parent": 7,
+      "mutation": {
+        "op": "meta",
+        "ts": 1790019829.0898237,
+        "path": "mutation_weights.skill",
+        "before": 3,
+        "after": 4
+      },
+      "parent_score": 1.0,
+      "child_score": 0.35,
+      "verdict": "death",
+      "cost_usd": 0.000501,
+      "mode": "live"
+    },
+    {
+      "gen": 9,
+      "ts": 1790020165.738471,
+      "parent": 8,
+      "mutation": {
+        "op": "persona_extra",
+        "ts": 1790020152.0316021,
+        "path": "persona.extra",
+        "before": "(vazio)",
+        "after": "Voce tem humor seco e afetuoso, nunca acido."
+      },
+      "parent_score": 1.0,
+      "child_score": 0.75,
+      "verdict": "death",
+      "cost_usd": 0.0009405,
+      "mode": "live"
+    },
+    {
+      "gen": 10,
+      "ts": 1790020488.4122467,
+      "parent": 9,
+      "mutation": {
+        "op": "drive",
+        "ts": 1790020465.7416582,
+        "path": "state.drives.connection",
+        "before": 0.5,
+        "after": 0.4446
+      },
+      "parent_score": 1.0,
+      "child_score": 0.75,
+      "verdict": "death",
+      "cost_usd": 0.001094,
+      "mode": "live"
+    }
+  ],
+  "nota": "veredictos e mutacoes da linhagem da mae"
+}
