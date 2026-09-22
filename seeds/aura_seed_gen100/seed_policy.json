@@ -1,0 +1,12 @@
+{
+  "anonimizar_memoria": true,
+  "lineage_tail": 1000,
+  "include_zip": true,
+  "publish_max_per_day": 3,
+  "repair_candidates": [
+    "z-ai/glm-5.3-flash",
+    "deepseek/deepseek-v4.1-flash",
+    "qwen/qwen3.8-27b:free",
+    "inclusionai/ling-3.0-flash-vl:free"
+  ]
+}

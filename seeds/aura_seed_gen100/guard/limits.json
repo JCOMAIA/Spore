@@ -1,0 +1,14 @@
+{
+  "monthly_spend_usd_cap": 2.0,
+  "max_lineage_mb": 200,
+  "max_cycles_total": 100000,
+  "epsilon_survival": 0.02,
+  "cycle_sleep_s": 300,
+  "blended_price_per_1m_usd": {
+    "default": 3.0,
+    "z-ai/glm-5.3-flash": 0.5,
+    "z-ai/glm-5.3-flashx": 1.6,
+    "deepseek/deepseek-v4.1-flash": 0.8
+  },
+  "_nota": "blended = preco misto entrada+saida por 1M tokens; superestime de proposito, o cap e o disjuntor."
+}

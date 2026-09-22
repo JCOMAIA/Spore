@@ -1,0 +1,17 @@
+{
+  "score": 0.987,
+  "breakdown": {
+    "boot": 1.0,
+    "persona": 1.0,
+    "recall_injected": 1.0,
+    "recall_memory": 1.0,
+    "stability": 1.0,
+    "probe_cognitive_flexibility": 0.9004237288135593
+  },
+  "usage": {
+    "prompt_tokens": 3122,
+    "completion_tokens": 5526
+  },
+  "cost_usd": 0.004324,
+  "dry": false
+}

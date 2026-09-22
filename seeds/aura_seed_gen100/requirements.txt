@@ -1,0 +1,2 @@
+# Aura Infinite â€” stdlib only. Nenhuma dependencia obrigatoria.
+# (fase 2 opcional: paramiko / llama-cpp-python â€” nao instale por enquanto.)
