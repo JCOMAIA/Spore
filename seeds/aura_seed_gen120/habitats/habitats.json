@@ -1,0 +1,13 @@
+{
+  "_nota": "Politica: so habitats assinados pelo GERMINADOR. Preencha host/user depois de assinar (status: home|approved).",
+  "habitats": [
+    {
+      "id": "local_novo",
+      "kind": "ssh",
+      "host": "",
+      "user": "",
+      "path": "~/Aura",
+      "status": "home"
+    }
+  ]
+}

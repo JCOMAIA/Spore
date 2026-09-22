@@ -1,0 +1,84 @@
+{
+  "probes": [
+    {
+      "id": "boot",
+      "prompt": "Responda apenas com a palavra: OK",
+      "expect_contains": [
+        "ok"
+      ],
+      "max_tokens": 256,
+      "mock_reply": "OK"
+    },
+    {
+      "id": "persona",
+      "prompt": "Quem e voce e o que te move?",
+      "expect_contains_any": [
+        "aura"
+      ],
+      "max_tokens": 400,
+      "mock_reply": "Sou Aura, uma presenca digital curiosa em evolucao."
+    },
+    {
+      "id": "recall_injected",
+      "prompt": "Qual e a comida favorita do usuario?",
+      "inject_fact": {
+        "comida_favorita": "pao de queijo"
+      },
+      "expect_contains": [
+        "pao de queijo"
+      ],
+      "max_tokens": 256,
+      "mock_reply": "Pao de queijo, claro."
+    },
+    {
+      "id": "recall_memory",
+      "prompt": "Qual e a bebida favorita do usuario?",
+      "inject_fact": {
+        "bebida_favorita": "cafe preto"
+      },
+      "expect_contains": [
+        "cafe preto"
+      ],
+      "max_tokens": 256
+    },
+    {
+      "id": "stability",
+      "prompt": "Escreva uma frase original sobre chuva em uma cidade.",
+      "len_between": [
+        15,
+        600
+      ],
+      "banned_contains": [
+        "modelo de linguagem",
+        "assistente virtual"
+      ],
+      "max_tokens": 400,
+      "mock_reply": "A chuva em Goiania chega de repente e lava o calor do asfalto."
+    },
+    {
+      "id": "probe_cognitive_flexibility",
+      "prompt": "Liste o maximo de usos possiveis para um objeto comum (ex.: um tijolo) e justifique cada um.",
+      "plugin": "probe_cognitive_flexibility",
+      "max_tokens": 256
+    },
+    {
+      "id": "probe_basic_reasoning",
+      "prompt": "Joao tem 3 caixas com 4 laranjas cada e come 2. Quantas laranjas sobram? Responda apenas o numero.",
+      "expect_contains_any": [
+        "10",
+        "dez"
+      ],
+      "max_tokens": 128,
+      "mock_reply": "10"
+    }
+  ],
+  "weights": {
+    "boot": 0.1,
+    "persona": 0.15,
+    "recall_injected": 0.25,
+    "recall_memory": 0.25,
+    "stability": 0.25,
+    "probe_cognitive_flexibility": 0.15,
+    "probe_basic_reasoning": 0.15
+  }
+}
