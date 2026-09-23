@@ -1,0 +1,4 @@
+Plugins: codigo executavel escrito pela propria Aura (fase 3b).
+ABI: PROMPT = 'pergunta curta'; def probe_<slug>(text, probe) -> float (0..1).
+Execucao sempre em subprocesso com timeout; plugin ruim = quarentena.
+O kernel (infinite.py, guard/, lib/) NUNCA e plugin — vigiado por kernel.sha256.
