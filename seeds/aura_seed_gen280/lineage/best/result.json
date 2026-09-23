@@ -1,0 +1,33 @@
+{
+  "score": 0.0,
+  "breakdown": {
+    "boot": 0.0,
+    "boot__err": "HTTP 403: {\"error\":{\"message\":\"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/95b6f1570c78674649ca23220e8e40b24",
+    "persona": 0.0,
+    "persona__err": "HTTP 403: {\"error\":{\"message\":\"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/95b6f1570c78674649ca23220e8e40b24",
+    "recall_injected": 0.0,
+    "recall_injected__err": "HTTP 403: {\"error\":{\"message\":\"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/95b6f1570c78674649ca23220e8e40b24",
+    "recall_memory": 0.0,
+    "recall_memory__err": "HTTP 403: {\"error\":{\"message\":\"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/95b6f1570c78674649ca23220e8e40b24",
+    "stability": 0.0,
+    "stability__err": "HTTP 403: {\"error\":{\"message\":\"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/95b6f1570c78674649ca23220e8e40b24",
+    "probe_cognitive_flexibility": 0.0,
+    "probe_cognitive_flexibility__err": "HTTP 403: {\"error\":{\"message\":\"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/95b6f1570c78674649ca23220e8e40b24",
+    "probe_basic_reasoning": 0.0,
+    "probe_basic_reasoning__err": "HTTP 403: {\"error\":{\"message\":\"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/95b6f1570c78674649ca23220e8e40b24",
+    "probe_letter_count": 0.0,
+    "probe_letter_count__err": "HTTP 403: {\"error\":{\"message\":\"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/95b6f1570c78674649ca23220e8e40b24",
+    "probe_temporal_reasoning": 0.0,
+    "probe_temporal_reasoning__err": "HTTP 403: {\"error\":{\"message\":\"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/95b6f1570c78674649ca23220e8e40b24",
+    "probe_sequence_reasoning": 0.0,
+    "probe_sequence_reasoning__err": "HTTP 403: {\"error\":{\"message\":\"Key limit exceeded (total limit). Manage it using https://openrouter.ai/workspaces/default/keys/95b6f1570c78674649ca23220e8e40b24",
+    "latencia_media_s": 0.0
+  },
+  "usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0
+  },
+  "latency_penalty": 0.0,
+  "cost_usd": 0.0,
+  "dry": false
+}
