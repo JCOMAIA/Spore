@@ -1,0 +1,8 @@
+{
+  "facts": {
+    "nome_do_usuario": "(valor omitido na semente)",
+    "cidade_do_usuario": "(valor omitido na semente)"
+  },
+  "updated_ts": 0,
+  "_nota_semente": "memoria anonimizada na esporulacao; os valores reais ficam com a mae"
+}
