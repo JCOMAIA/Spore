@@ -1,0 +1,4 @@
+As maos dela (fase 3c): ferramentas com allow-list e auditoria total.
+  tool_log.jsonl = cada chamada;  shifts.jsonl = cada turno de agencia.
+  workspace/ = rascunho livre dela.  Kernel imune (kernel.sha256 vigia).
+  Uso manual: python3 hands/shift.py --auto   ou   --mission '...'

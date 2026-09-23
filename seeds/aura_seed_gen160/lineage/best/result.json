@@ -1,0 +1,23 @@
+{
+  "score": 0.9889,
+  "breakdown": {
+    "boot": 1.0,
+    "persona": 1.0,
+    "recall_injected": 1.0,
+    "recall_memory": 1.0,
+    "stability": 1.0,
+    "probe_cognitive_flexibility": 0.8701298701298701,
+    "probe_basic_reasoning": 1.0,
+    "probe_letter_count": 1.0,
+    "probe_temporal_reasoning": 1.0,
+    "probe_sequence_reasoning": 1.0,
+    "latencia_media_s": 20.52
+  },
+  "usage": {
+    "prompt_tokens": 6206,
+    "completion_tokens": 9285
+  },
+  "latency_penalty": 0.0,
+  "cost_usd": 0.0123928,
+  "dry": false
+}
