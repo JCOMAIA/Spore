@@ -1,0 +1,18 @@
+{
+  "seed_format_version": 1,
+  "gen": 220,
+  "born_ts": 1790143715.4190936,
+  "mother_host": "vps-19f9baad",
+  "geracoes_registradas": 219,
+  "score": {
+    "score": 0.0,
+    "gen": 220,
+    "mode": "live"
+  },
+  "sha256": {
+    "genome.json": "efe0c05bd098b1576b9dd6e40b616b5fd4cd075de75a1ddd95ed3d3ee818bdbd",
+    "infinite.py": "e5fbdda824c10decfeecc24d80e40bf63eb2070fffad1525db6dc1834b5746bc"
+  },
+  "anonimizado": true,
+  "nota": "semente dormente; germinacao exige consentimento humano (germinate.py)"
+}
